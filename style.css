@@ -1,0 +1,203 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ body {
+  background-color: #fdecdf; 
+  font-family: "Arial";
+ }
+ 
+ /* STYLE TEXT */
+ p {
+   font-size:20px;
+   padding-top:30px;
+   margin-right:5%;
+   margin-left:5%;
+   color:#b88b5f;
+ }
+ 
+ h1 {
+   color:#dbcf83;
+   text-align: center;
+   margin-right:7%;
+   margin-left:7%;
+   padding-top:20px;
+   font-size:70px;
+ }
+ #center {
+   text-align:center;
+ }
+ h2 {
+   color:#dbcf83;
+   text-align: center;
+   margin-right:7%;
+   margin-left:7%;
+   padding-top:20px;
+   font-size:50px;
+ }
+ h3 {
+   color:#70908f;
+   margin-right:7%;
+   margin-left:7%;
+   padding-top:20px;
+   font-size:30px;
+ }
+ .links {
+   font-size:20px;
+   margin-right:5%;
+   margin-left:5%;
+   color:#374a4a;
+ }
+ .help {
+   background-color:#bed2d5;
+   margin-right:7%;
+   margin-left:7%;
+   margin-top:2%;
+   margin-bottom:2%;
+   border-radius: 8px;
+ }
+ .help p {
+   color:#374a4a;
+ }
+ 
+ .pledge h2 {
+   color:#cdb85e;
+ }
+ 
+ /* STYLE IMAGES */
+ .image {
+   position: relative;
+   background-image: url("assets/mall.jpeg");
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   font-size:50px;
+ }
+ 
+ .image .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #ffffff80;
+ 
+   z-index: 1;
+ }
+ 
+ .image-text {
+   background-color:#a78f3d;
+   color: white;
+   border-radius: 8px;
+   text-align: center;
+   margin-right:7%;
+   margin-left:7%;
+   padding:10px;
+ }
+ .image-text h1 {
+   color: white;
+ }
+ 
+ .image p {
+   color:white;
+   padding-top:2px;
+ }
+ .content img {
+   padding-top:30px;
+   margin-right:4%;
+ }
+ /* STYLE NAV BAR */
+ ul {
+   list-style-type:none;
+   background-color:#bed2d5;
+   overflow:hidden;
+   padding: 1em;
+ }
+ li {
+   display: inline;
+ }
+ li a {
+   text-decoration:none;
+   color:#577371;
+   font-size:1.3em;
+   padding:1em;
+ }
+ li a:hover {
+   background-color:#fdecdf;
+   color:#e6b079;
+ }
+ /* STYLE BUTTONS */
+ 
+ .pledge button {
+   padding: 8px 12px;
+   background-color: #70908f;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .pledge button:hover {
+   background-color: #577371;
+ }
+ 
+ button {
+   padding:8px 12px;
+   margin-top:20px;
+   background-color: #70908f;
+   color: white;
+   border: none;
+   border-radius: 4px;
+ }
+ button:hover {
+   background-color: #577371;
+ }
+ /* ADD MORE! */
+ .content {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin: 30px 5%;
+   gap: 20px;
+ }
+ 
+ .content .text {
+   flex: 2;
+ }
+ 
+ .content .side-image {
+   flex: 1;
+   max-width: 400px;
+   height: auto;
+ }
+ .pledge {
+   margin: 30px 5%;
+   padding: 20px;
+   background-color: #bed2d5;
+   border-radius: 8px;
+   text-align: center;
+ }
+ .pledge input {
+   padding: 8px;
+   margin: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ #pledgeMessage {
+   margin-top: 15px;
+   font-weight: bold;
+   color: #577371;
+ }
+ .button {
+   margin: 30px 5%;
+   padding: 20px;
+   background-color: #bed2d5;
+   border-radius: 8px;
+   text-align: center;
+ }
