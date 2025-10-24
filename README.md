@@ -11,3 +11,5 @@ I built the website using **HTML, CSS, and JavaScript**. I organized information
 
 ## Challenges and What I Learned
 One of the hardest parts was presenting a lot of information without overwhelming users. I learned a lot about web design, like structuring content, using color effectively, and making the site interactive. I also learned more about fast fashion itself and ways people can make a positive impact.
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
